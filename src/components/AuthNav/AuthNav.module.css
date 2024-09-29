@@ -1,0 +1,21 @@
+.authNavContainer {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .authLink {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #007bff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .authLink:hover {
+    background-color: #0056b3;
+  }
+  
+  .authLink:active {
+    background-color: #003f7f;
+  }

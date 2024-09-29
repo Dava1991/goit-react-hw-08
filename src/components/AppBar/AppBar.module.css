@@ -1,0 +1,18 @@
+.appBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navSection {
+    display: flex;
+    align-items: center;
+  }
+  
+  .authNav,
+  .userMenu {
+    margin-left: 20px;
+  }

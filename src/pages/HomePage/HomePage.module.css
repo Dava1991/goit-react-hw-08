@@ -1,0 +1,28 @@
+.container {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .footer {
+    margin-top: auto;
+    padding-top: 20px;
+    font-size: 1rem;
+    color: #777;
+  }
