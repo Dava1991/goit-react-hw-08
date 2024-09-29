@@ -1,4 +1,4 @@
-import style from "./Error.module.css";
+import styles from "./Error.module.css";
 
 export default function Error() {
   return (
