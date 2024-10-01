@@ -43,11 +43,6 @@ const contactsSlice = createSlice({
       })
       .addCase(deleteContact.rejected, handleRejected);
   },
-  selectors: {
-    selectContacts: (state) => state.items,
-    selectLoader: (state) => state.loading,
-    selectError: (state) => state.error,
-  },
 });
 
 export default contactsSlice.reducer;

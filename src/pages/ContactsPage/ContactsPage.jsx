@@ -6,7 +6,7 @@ import Loader from "../../components/Loader/Loader";
 import SearchBox from "../../components/SearchBox/SearchBox";
 import { useEffect } from "react";
 import { fetchContacts } from "../../redux/contacts/operations";
-import { selectError, selectLoader } from "../../redux/contacts/slice";
+import { selectError, selectLoader } from "../../redux/contacts/selectors";
 
 import style from "./ContactsPage.module.css";
 
